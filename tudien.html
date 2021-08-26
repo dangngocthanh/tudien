@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rwed</title>
+</head>
+<body>
+<script>
+    let A='zxcvbnmlkjhgfdsaqwertyuiop'
+    let arr=[
+        ['Hello','Computer','Head','Body','House','Live'],
+        ['xin chào','Máy vi tính','Cái đầu','Cơ thể','Nhà ở','Trực tiếp']
+    ];
+    let inp=prompt('Nhập từ tiếng anh')
+    for (let i=0;i<A.length;i++){
+        if (inp[0]===A[i]) inp[0]=inp[0].toUpperCase()
+    }
+    for (let i=0;i<arr[1].length;i++){
+        if (inp===arr[0][i])
+            alert(arr[1][i])
+    }
+
+</script>
+</body>
+</html>
